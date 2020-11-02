@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+package example;
+
+message Request {
+  string key = 1;
+}
+
+message Response {
+  string value = 1;
+}
